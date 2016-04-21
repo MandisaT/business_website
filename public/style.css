@@ -1,0 +1,46 @@
+body {
+
+	background-color: black;
+}
+
+
+img{
+margin: 0 auto ;
+width: 900px;
+height: 850px;
+}
+
+h1 {
+	border: 2px solid white;
+	background-color: white;
+	color: black;
+	width:200px;
+	height:150px;
+	margin: 0 auto ;
+	text-align: center;
+}
+
+ul {
+	border: 2px solid gray;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+	color: white;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #9B5F1D;
+}
