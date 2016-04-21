@@ -3,38 +3,70 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Home Page</title>
+	<link href='https://fonts.googleapis.com/css?family=Merriweather+Sans:700' rel='stylesheet' type='text/css'>
 </head>
 <body>
-<h1>BAR NAME</h1>
+<h1>THE NIGHTLY OWL</h1>
 <nav>
 	<ul>
 		<li>
-			<a href="page1.erb">
+			<a href="page1">
 				HOME
 			</a>
 		</li>
 		<li>
-			<a href="page2.erb">
+			<a href="page2">
 				OUR STORY
 			</a>
 		</li>
 		<li>
-			<a href="page3.erb">
+			<a href="page3">
 			MENU
 			</a>
 		</li>
 		<li>
-			<a href="page4.erb">
+			<a href="page4">
 				LOCATIONS
 			</a>
 		</li>
 	</ul>	
 </nav>
 
+<%= yield %>
+
+<div class="location">
+<h2>LOCATIONS</h2>
+
+<div id="column1">
+<h3>33 EAST 33RD STREET</h3>
+<p>33rd between Park & Madison</p>
+<p>NOW OPEN</p>
+<p>Monday-Friday 7am to 9pm</p>
+<p>Saturday 8am to 3pm</p>
+<p>Sunday Closed</p>
+<p>212-481-5555</p>
+</div>
+
+<div id="column2">
+<h3>WILLIAM STREET</h3>
+<p>123 William Street</p>
+<p>NOW OPEN</p>
+<p>Monday-Friday 6am to 10pm</p>
+<p>Saturday-Sunday 8am to 8pm</p>
+<p>Main Line: 212-346-7600</p>
+<p>Catering Line: 212-227-4619</p>
+</div>
+
+</div>
 
 
-<footer></footer>
+
+
+<footer>
+	Social Media Tags
+	2016 Bar Name
+</footer>
 
 </body>
-<%= yield %>
+
 </html>
