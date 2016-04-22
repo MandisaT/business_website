@@ -3,5 +3,37 @@
 	<title>Home Page</title>
 
 
-<img src="images\home.jpg">
+<script>
+$(document).ready(function(){
+
+		$(".box2").hide();
+
+	$(".button").click(function(){
+		$(".opbackground").show();
+	});
+	
+$(" .opbackground"). on('click',function(){
+	$(".wrapper").hide();
+	 });
+
+
+$(".wrapper").click(function(){
+		$(".box2").show();
+	 });
+
+$(".button2").click(function(){
+		$(".box2").show();
+	 });
+	
+});
+
+     </script> 
+
+
+
+<!-- <div class="slide"> <img src="images\catering.jpg"></div>  --> 
+<div class="slide"> <img src="images\home.jpg"></div>  
+<!-- <div class="slide"> <img src="images\location.jpg"></div>   -->
+	</div>
+
 
